@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
     startButton.addEventListener("click", function () {
         if (!gameInterval) {
             board.style.display = "grid"
-            gameInterval = setInterval(randomAppear, 1000)
+            gameInterval = setInterval(randomAppear, 800)
             bgMusic.play()
             bgMusic.loop = true
         }
